@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-46122585-m3
+  labels:
+    app: pod-46122585-m3
+spec:
+  containers:
+    - name: 46122585-m3
+      image: batdocker001/m3:latest
